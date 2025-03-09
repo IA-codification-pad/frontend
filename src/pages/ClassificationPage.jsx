@@ -14,7 +14,7 @@ import ClassIcon from '@mui/icons-material/Class';
 import ClassificationForm from '../components/classification/ClassificationForm';
 import ClassificationResult from '../components/classification/ClassificationResult';
 import AmbiguityResolver from '../components/classification/AmbiguityResolver';
-import { useClassification } from '../hooks/useClassification';
+import useClassification from '../hooks/useClassification';
 
 const ClassificationPage = () => {
   const { lastResult } = useClassification();

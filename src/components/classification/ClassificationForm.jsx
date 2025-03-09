@@ -11,7 +11,7 @@ import {
   Autocomplete
 } from '@mui/material';
 import SearchIcon from '@mui/icons-material/Search';
-import { useClassification } from '../../hooks/useClassification';
+import useClassification from '../../hooks/useClassification';
 
 const ClassificationForm = () => {
   const [description, setDescription] = useState('');

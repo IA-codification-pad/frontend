@@ -19,7 +19,7 @@ import {
 import SearchIcon from '@mui/icons-material/Search';
 import InfoIcon from '@mui/icons-material/Info';
 import EditIcon from '@mui/icons-material/Edit';
-import { useClassification } from '../../hooks/useClassification';
+import useClassification from '../../hooks/useClassification';
 
 const ClassificationHistory = () => {
   const [page, setPage] = useState(0);

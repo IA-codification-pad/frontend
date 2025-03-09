@@ -11,7 +11,7 @@ import {
 } from '@mui/material';
 import UploadFileIcon from '@mui/icons-material/UploadFile';
 import SendIcon from '@mui/icons-material/Send';
-import { useClassification } from '../../hooks/useClassification';
+import useClassification from '../../hooks/useClassification';
 
 const BatchClassificationForm = () => {
   const [descriptions, setDescriptions] = useState('');

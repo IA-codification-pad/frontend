@@ -1,5 +1,5 @@
 import React, { createContext, useState, useCallback } from 'react';
-import { classificationService } from '../services/classificationService';
+import classificationService from '../services/classificationService';
 
 const ClassificationContext = createContext();
 

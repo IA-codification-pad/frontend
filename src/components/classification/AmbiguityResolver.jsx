@@ -14,7 +14,7 @@ import {
   CircularProgress,
   Alert
 } from '@mui/material';
-import { useClassification } from '../../hooks/useClassification';
+import useClassification from '../../hooks/useClassification';
 
 const AmbiguityResolver = ({ open, onClose, ambiguity, onResolved }) => {
   const [selectedClass, setSelectedClass] = useState('');

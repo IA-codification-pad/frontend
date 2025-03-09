@@ -12,7 +12,7 @@ import {
 import SendIcon from '@mui/icons-material/Send';
 import AutorenewIcon from '@mui/icons-material/Autorenew';
 import ChatMessage from './ChatMessage';
-import { useChatbot } from '../../hooks/useChatbot';
+import useChatbot from '../../hooks/useChatbot';
 
 const ChatInterface = () => {
   const [message, setMessage] = useState('');

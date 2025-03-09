@@ -15,7 +15,7 @@ import ClassIcon from '@mui/icons-material/Class';
 import ListAltIcon from '@mui/icons-material/ListAlt';
 import HistoryIcon from '@mui/icons-material/History';
 import ChatIcon from '@mui/icons-material/Chat';
-import { useAuth } from '../hooks/useAuth';
+import useAuth from '../hooks/useAuth';
 
 const HomePage = () => {
   const { user, isAuthenticated } = useAuth();
